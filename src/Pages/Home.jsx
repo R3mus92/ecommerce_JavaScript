@@ -7,9 +7,9 @@ import NewsLetter from "../Components/NewsLetter/NewsLetter";
 
 
 
-const Shop = () => {
+const Home = () => {
    return (
-      <div className="shop">
+      <div className="Home">
          <Hero/>
          <Popular/>
          <Offers/>
@@ -19,4 +19,4 @@ const Shop = () => {
    )
 }
 
-export default Shop
+export default Home
