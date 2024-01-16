@@ -7,37 +7,37 @@ const ProductDisplay = (props) => {
    const {product} = props;
    return (
    <div className='productdisplay'>
-      <div className="productdisplay-left">
-         <div className="productdisplay-img-list">
-            <img src={product.image} alt="" />
-            <img src={product.image} alt="" />
-            <img src={product.image} alt="" />
-            <img src={product.image} alt="" />
+      <div className='productdisplay-left'>
+         <div className='productdisplay-img-list'>
+            <img src={product.image} alt='' />
+            <img src={product.image} alt='' />
+            <img src={product.image} alt='' />
+            <img src={product.image} alt='' />
          </div>
-         <div className="productdisplay-img">
-            <img className='productdisplay-main-img' src={product.image} alt="" />
+         <div className='productdisplay-img'>
+            <img className='productdisplay-main-img' src={product.image} alt='' />
          </div>
       </div>
-      <div className="productdisplay-right">
+      <div className='productdisplay-right'>
          <h1>{product.name}</h1>
-         <div className="productdisplay-right-star">
-            <img src={star_icon} alt="" />
-            <img src={star_icon} alt="" />
-            <img src={star_icon} alt="" />
-            <img src={star_icon} alt="" />
-            <img src={star_dull_icon} alt="" />
+         <div className='productdisplay-right-stars'>
+            <img src={star_icon} alt='' />
+            <img src={star_icon} alt='' />
+            <img src={star_icon} alt='' />
+            <img src={star_icon} alt='' />
+            <img src={star_dull_icon} alt='' />
             <p>(122)</p>
          </div>
-         <div className="productdisplay-right-prices">
-            <div className="productdisplay-right-price-old">${product.old_price}</div>
-            <div className="productdisplay-right-price-new">${product.new_price}</div>
+         <div className='productdisplay-right-prices'>
+            <div className='productdisplay-right-price-old'>${product.old_price}</div>
+            <div className='productdisplay-right-price-new'>${product.new_price}</div>
          </div>
-         <div className="productdisplay-right-description">
+         <div className='productdisplay-right-description'>
          Experience comfort and style with us. Crafted from a breathable blend of cotton and polyester, this article boasts a modern silhouette with a classic horizontal stripe pattern. Perfect for any occasion, it effortlessly blends laid-back charm with a touch of sophistication for a versatile wardrobe staple.
          </div>
-         <div className="productdisplay-right-size">
+         <div className='productdisplay-right-size'>
             <h1>Select Size</h1>
-            <div className="productdisplay-right-size">
+            <div className='productdisplay-right-sizes'>
                <div>S</div>
                <div>M</div>
                <div>L</div>
@@ -46,8 +46,8 @@ const ProductDisplay = (props) => {
             </div>
          </div>
          <button>Add to Cart</button>
-         <p className="productdisplay-right-category"><span>Category: </span>Women, T-Shirt, Crop Top</p>
-         <p className="productdisplay-right-category"><span>Tags: </span>Modern, Latest</p>
+         <p className='productdisplay-right-category'><span>Category: </span>Women, T-Shirt, Crop Top</p>
+         <p className='productdisplay-right-category'><span>Tags: </span>Modern, Latest</p>
       </div>
    </div>
 )
