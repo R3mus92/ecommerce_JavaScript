@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero-left">
          <div>
          <h2>New Arrivals</h2>
-            <div className="hero-car-icon">
+            <div className="hero-shirt-icon">
                <img src={shirt_icon} alt="" />
             </div>
             <p>New clothing</p>
