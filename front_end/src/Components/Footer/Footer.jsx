@@ -6,36 +6,36 @@ import pinterest_icon from '../Assets/pintester_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
 
 const Footer = () => {
-  return (
-    <div className='footer'>
+   return (
+   <div className='footer'>
       <div className="footer-logo">
          <img src={footer_logo} alt="" />
          <p>Dress to Impress</p>
       </div>
       <ul className="footer-links">
-         <li>Company</li>
-         <li>Products</li>
-         <li>Office</li>
-         <li>About</li>
-         <li>Contact</li>
+         <li><a href="">Company</a></li>
+         <li><a href="">Products</a></li>
+         <li><a href="">Office</a></li>
+         <li><a href="">About</a></li>
+         <li><a href="">Contact</a></li>
       </ul>
       <div className="footer-social-icon">
          <div className="footer-icons-container">
-            <img src={instagram_icon} alt="" />
+            <a href="http://instagram.com"><img src={instagram_icon} alt="" /></a>
          </div>
          <div className="footer-icons-container">
-            <img src={pinterest_icon} alt="" />
+            <a href="http://pinterest.com"><img src={pinterest_icon} alt="" /></a>
          </div>
          <div className="footer-icons-container">
-            <img src={whatsapp_icon} alt="" />
+            <a href="http://whatsapp.com"><img src={whatsapp_icon} alt="" /></a>
          </div>
       </div>
       <div className="footer-copyright">
          <hr />
          <p>Copyright @2024 - All Rights Reserved.</p>
       </div>
-    </div>
-  )
+   </div>
+)
 }
 
 export default Footer
