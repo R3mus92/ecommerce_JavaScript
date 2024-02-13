@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection with MongoDB
-mongoose.connect("mongodb+srv://testingmongodb:justt3sting@cluster0.etzlpaa.mongodb.net/e-commerce");
+mongoose.connect("mongodb+srv://testingmongodata:t3sting@cluster0.6b0c9nj.mongodb.net/e-commerce");
 
 // API Creation
 
@@ -37,7 +37,7 @@ app.use('/images',express.static('upload/images'))
 app.post("/upload",upload.single('product'),(req,res)=>{
    res.json({
       success:1,
-      image_url:`http://localhost:${port}/images/${req.file.filename}`
+      image_url:`https://ecommerce-node-app-3e9f24b61b07.herokuapp.com/images/${req.file.filename}`
    })
 })
 
