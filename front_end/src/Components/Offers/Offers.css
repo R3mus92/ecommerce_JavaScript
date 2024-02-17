@@ -15,7 +15,7 @@
    justify-content: center;
 }
 
-.offers-left h1{
+.offers-left h2{
    color:#171717;
    font-size: 60px;
    font-weight: 500;
@@ -53,7 +53,7 @@
       padding: 0px 80px;
       margin-bottom: 120px;
    }
-   .offers-left h1{
+   .offers-left h2{
       font-size: 40px;
    }
    .offers-left p{
@@ -78,7 +78,7 @@
       margin-bottom: 80px;
       height: 40vh;
    }
-   .offers-left h1{
+   .offers-left h2{
       font-size: 30px;
    }
    .offers-left p{
@@ -101,7 +101,7 @@
    .offers{
       margin-bottom: 60px;
    }
-   .offers-left h1{
+   .offers-left h2{
       font-size: 22px;
    }
    .offers-left p{
@@ -123,7 +123,7 @@
       margin-bottom: 50px;
       margin-top: 170px;
    }
-   .offers-left h1{
+   .offers-left h2{
       font-size: 16px;
    }
    .offers-left p{

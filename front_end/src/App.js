@@ -10,6 +10,8 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kids_banner from './Components/Assets/banner_kids.png'
+import NewCollections from './Components/NewCollections/NewCollections';
+import Offers from './Components/Offers/Offers';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path='product/:productId' element={<Product/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
+        <Route path='/' Component={Offers} />
+        <Route path='/newcollections' Component={NewCollections} />
       </Routes>
       <Footer/>
       </BrowserRouter>
